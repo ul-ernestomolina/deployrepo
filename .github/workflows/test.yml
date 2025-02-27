@@ -6,7 +6,7 @@ on:
       - main  
   pull_request:
     branches:
-      - main  # Esto activará el workflow cuando un PR se cree hacia la rama main.
+      - main  
 
 jobs:
   trigger-tests:
